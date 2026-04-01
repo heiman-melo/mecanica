@@ -1,0 +1,218 @@
+<div class="seccion-contenido">
+
+  <div class="seccion-header">
+    <h2>🔍 Diagnóstico del Motor</h2>
+    <p>Herramientas, códigos OBD-II y síntomas comunes para identificar fallas</p>
+  </div>
+
+  <div class="info-box">
+    <strong>ℹ️ OBD-II (On-Board Diagnostics)</strong>
+    Desde 1996 todos los vehículos tienen un puerto OBD-II (debajo del tablero, lado conductor).
+    Conectando un escáner se pueden leer los códigos de error (DTC) que almacena la ECU cuando detecta una falla.
+  </div>
+
+  <!-- HERRAMIENTAS -->
+  <h3 style="color: var(--color-texto); margin-top: 1.5rem;">Herramientas de Diagnóstico</h3>
+  <div class="cards-grid">
+
+    <article class="card">
+      <div class="card-icono">📱</div>
+      <h3>Escáner OBD-II Bluetooth</h3>
+      <p>Se conecta al puerto OBD-II y envía datos al celular via app (Torque Pro, Car Scanner). Lee y borra códigos, monitorea parámetros en tiempo real.</p>
+      <ul>
+        <li>Económico (desde $10 USD)</li>
+        <li>Compatible con Android e iOS</li>
+        <li>Ideal para diagnóstico básico</li>
+      </ul>
+    </article>
+
+    <article class="card card--naranja">
+      <div class="card-icono">🖥️</div>
+      <h3>Escáner Profesional</h3>
+      <p>Equipos como Autel, Launch o Snap-On. Permiten diagnóstico bidireccional, activación de componentes y programación de módulos.</p>
+      <ul>
+        <li>Lee todos los módulos del vehículo</li>
+        <li>Activa inyectores, válvulas EGR, etc.</li>
+        <li>Necesario para vehículos modernos</li>
+      </ul>
+    </article>
+
+    <article class="card card--verde">
+      <div class="card-icono">💡</div>
+      <h3>Multímetro</h3>
+      <p>Indispensable para medir voltaje, resistencia y continuidad en sensores, actuadores y circuitos eléctricos del motor.</p>
+      <ul>
+        <li>Verifica sensores (MAP, MAF, TPS)</li>
+        <li>Comprueba bobinas y bujías</li>
+        <li>Diagnóstico de circuitos eléctricos</li>
+      </ul>
+    </article>
+
+  </div>
+
+  <!-- TABLA DE CÓDIGOS OBD -->
+  <h3 style="color: var(--color-texto); margin-top: 2.5rem;">Códigos OBD-II más Comunes</h3>
+
+  <div class="tabla-wrapper">
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Descripción</th>
+          <th>Causa más común</th>
+          <th>Gravedad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>P0300</strong></td>
+          <td>Fallo de encendido aleatorio (misfire)</td>
+          <td>Bujías, bobinas, inyectores desgastados</td>
+          <td><span class="badge badge--rojo">Alta</span></td>
+        </tr>
+        <tr>
+          <td><strong>P0420</strong></td>
+          <td>Eficiencia del catalizador por debajo del umbral</td>
+          <td>Catalizador dañado, sonda lambda defectuosa</td>
+          <td><span class="badge badge--naranja">Media</span></td>
+        </tr>
+        <tr>
+          <td><strong>P0171</strong></td>
+          <td>Mezcla demasiado pobre (banco 1)</td>
+          <td>Vacío de admisión, sensor MAF sucio, bomba de combustible débil</td>
+          <td><span class="badge badge--naranja">Media</span></td>
+        </tr>
+        <tr>
+          <td><strong>P0101</strong></td>
+          <td>Sensor MAF fuera de rango</td>
+          <td>Sensor de flujo de aire sucio o dañado</td>
+          <td><span class="badge badge--naranja">Media</span></td>
+        </tr>
+        <tr>
+          <td><strong>P0113</strong></td>
+          <td>Sensor de temperatura de admisión — señal alta</td>
+          <td>Sensor IAT cortocircuitado o cableado dañado</td>
+          <td><span class="badge badge--verde">Baja</span></td>
+        </tr>
+        <tr>
+          <td><strong>P0340</strong></td>
+          <td>Sensor de posición del árbol de levas — sin señal</td>
+          <td>Sensor CMP dañado, rueda fónica sucia, cableado</td>
+          <td><span class="badge badge--rojo">Alta</span></td>
+        </tr>
+        <tr>
+          <td><strong>P0562</strong></td>
+          <td>Voltaje del sistema bajo</td>
+          <td>Batería débil, alternador con falla</td>
+          <td><span class="badge badge--naranja">Media</span></td>
+        </tr>
+        <tr>
+          <td><strong>P0128</strong></td>
+          <td>Temperatura del refrigerante por debajo del umbral</td>
+          <td>Termostato abierto permanentemente</td>
+          <td><span class="badge badge--verde">Baja</span></td>
+        </tr>
+        <tr>
+          <td><strong>P0455</strong></td>
+          <td>Fuga grande en sistema EVAP</td>
+          <td>Tapón de combustible mal cerrado o con fisura</td>
+          <td><span class="badge badge--verde">Baja</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SÍNTOMAS Y CAUSAS -->
+  <h3 style="color: var(--color-texto); margin-top: 2.5rem;">Síntomas y Posibles Causas</h3>
+  <div class="cards-grid">
+
+    <article class="card">
+      <div class="card-icono">💨</div>
+      <h3>Humo Blanco por Escape</h3>
+      <ul>
+        <li>Junta de culata dañada (refrigerante entra al cilindro)</li>
+        <li>Culata fisurada</li>
+        <li>Normal en arranque en frío (solo vapor de agua)</li>
+      </ul>
+    </article>
+
+    <article class="card card--naranja">
+      <div class="card-icono">🖤</div>
+      <h3>Humo Negro por Escape</h3>
+      <ul>
+        <li>Mezcla demasiado rica (exceso de combustible)</li>
+        <li>Inyectores que gotean</li>
+        <li>Sensor MAF dañado</li>
+        <li>Filtro de aire muy obstruido</li>
+      </ul>
+    </article>
+
+    <article class="card card--rojo">
+      <div class="card-icono">🔵</div>
+      <h3>Humo Azul por Escape</h3>
+      <ul>
+        <li>El motor quema aceite</li>
+        <li>Sellos de válvulas desgastados</li>
+        <li>Segmentos de pistón gastados</li>
+        <li>Guías de válvulas con juego excesivo</li>
+      </ul>
+    </article>
+
+    <article class="card card--verde">
+      <div class="card-icono">🔔</div>
+      <h3>Golpeteo Metálico en Marcha</h3>
+      <ul>
+        <li>Nivel de aceite bajo</li>
+        <li>Bielas o cojinetes desgastados</li>
+        <li>Combustible de bajo octanaje (cascabeleo)</li>
+        <li>Holgura excesiva en válvulas</li>
+      </ul>
+    </article>
+
+    <article class="card card--azul">
+      <div class="card-icono">🚦</div>
+      <h3>Motor Sobrecalentado</h3>
+      <ul>
+        <li>Nivel de refrigerante bajo</li>
+        <li>Termostato bloqueado cerrado</li>
+        <li>Bomba de agua dañada</li>
+        <li>Radiador obstruido o con fuga</li>
+        <li>Ventilador sin funcionar</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="card-icono">⚡</div>
+      <h3>Motor No Arranca</h3>
+      <ul>
+        <li>Batería descargada o muerta</li>
+        <li>Motor de arranque dañado</li>
+        <li>Sin combustible o bomba de combustible dañada</li>
+        <li>Correa/cadena de distribución rota</li>
+        <li>Inmovilizador activo (chip de llave)</li>
+      </ul>
+    </article>
+
+  </div>
+
+  <div class="tip">
+    <strong>💡 Consejo Profesional</strong>
+    Antes de reemplazar piezas costosas, siempre verificá la alimentación eléctrica (voltaje y masa) de los sensores.
+    El 40% de los sensores "dañados" en realidad tienen un problema en el cableado o conector.
+  </div>
+
+  <!-- PROCEDIMIENTO BÁSICO DE DIAGNÓSTICO -->
+  <h3 style="color: var(--color-texto); margin-top: 2rem;">Procedimiento Básico de Diagnóstico</h3>
+  <div class="procedimiento">
+    <strong>📋 Pasos Recomendados</strong>
+    <ol class="pasos-lista">
+      <li>Conectar el escáner al puerto OBD-II y registrar todos los códigos activos y pendientes.</li>
+      <li>Anotar los síntomas del cliente y cuándo ocurren (en frío, caliente, bajo carga, etc.).</li>
+      <li>Inspección visual: nivel de fluidos, mangueras, cables, fugas visibles.</li>
+      <li>Verificar parámetros en tiempo real con el escáner (temperatura, TPS, MAP, RPM, voltaje).</li>
+      <li>Confirmar la falla con pruebas específicas antes de reemplazar componentes.</li>
+      <li>Reparar, borrar códigos y hacer una prueba de manejo para confirmar que no regresan.</li>
+    </ol>
+  </div>
+
+</div>

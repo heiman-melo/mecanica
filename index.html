@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Apuntes de mecánica automotriz: motor, frenos, suspensión, electricidad y diagnóstico." />
+  <title>Mecánica Automotriz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <span class="header-icono">🔧</span>
+      <h1 class="header-titulo">Mecánica Automotriz</h1>
+    </div>
+  </header>
+
+  <button class="panel-btn hamburger hamburger--vortex" type="button" aria-label="Abrir menú de navegación">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+  <aside class="panel" role="navigation" aria-label="Menú principal">
+    <nav class="menu">
+
+      <div class="menu-grupo">
+        <span class="menu-grupo-titulo">🔩 Motor</span>
+        <a href="#s-motor-partes">Partes del Motor</a>
+        <a href="#s-motor-diagnostico">Diagnóstico del Motor</a>
+      </div>
+
+      <div class="menu-grupo">
+        <span class="menu-grupo-titulo">🛑 Frenos</span>
+        <a href="#s-frenos-tipos">Tipos de Frenos</a>
+        <a href="#s-frenos-mantenimiento">Mantenimiento de Frenos</a>
+      </div>
+
+    </nav>
+  </aside>
+
+  <main>
+    <section id="s-motor-partes"         class="section" data-seccion="Partes del Motor"></section>
+    <section id="s-motor-diagnostico"    class="section" data-seccion="Diagnóstico del Motor"></section>
+    <section id="s-frenos-tipos"         class="section" data-seccion="Tipos de Frenos"></section>
+    <section id="s-frenos-mantenimiento" class="section" data-seccion="Mantenimiento de Frenos"></section>
+  </main>
+
+  <button class="scroll-top-btn hidden" aria-label="Volver al inicio">&#11014;</button>
+  <button class="dark-theme-btn" aria-label="Cambiar tema">🌚</button>
+
+  <script src="js/main.js" type="module"></script>
+
+</body>
+</html>
