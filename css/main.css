@@ -442,9 +442,9 @@ pre {
    ============================================= */
 .scroll-top-btn {
   position: fixed;
-  z-index: 999;
+  z-index: 900;
   bottom: 1.2rem;
-  right: calc(4.5rem + 1vw);
+  right: calc(4rem + 1vw);
   width: 3.2rem;
   height: 3.2rem;
   border-radius: 50%;
@@ -466,7 +466,7 @@ pre {
 
 .dark-theme-btn {
   position: fixed;
-  z-index: 999;
+  z-index: 900;
   bottom: 1.2rem;
   left: 1vw;
   width: 3.2rem;
