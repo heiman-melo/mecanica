@@ -39,7 +39,6 @@ export function observeSection(id, path) {
           })
           .then((html) => {
             section.innerHTML = html;
-            section.classList.add('loaded');
           })
           .catch((err) => {
             console.error('[section-loader]', err);

@@ -117,15 +117,15 @@ pre {
 
 .header-titulo {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .header-titulo {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -134,7 +134,7 @@ pre {
    ============================================= */
 .section {
   min-height: 100vh;
-  padding: 2.5rem 1rem 3rem;
+  padding: 3rem 2rem 4rem;
   transition: background-color var(--transicion);
 }
 
@@ -146,9 +146,9 @@ pre {
   background-color: var(--bg-seccion-impar);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .section {
-    padding: 3rem 2rem 4rem;
+    padding: 2.5rem 1rem 3rem;
   }
 }
 
@@ -484,6 +484,7 @@ pre {
 
 .dark-theme-btn:hover {
   transform: scale(1.1);
+  background-color: yellow;
 }
 
 .hidden {
