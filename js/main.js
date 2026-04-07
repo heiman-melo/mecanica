@@ -16,6 +16,7 @@ d.addEventListener('DOMContentLoaded', () => {
   observeSections([
     { id: 's-motor-partes',         path: './secciones/motor/1-partes-del-motor.html' },
     { id: 's-motor-diagnostico',    path: './secciones/motor/2-diagnostico-motor.html' },
+    { id: 's-motor-sensores',       path: './secciones/motor/3-sensores-motor.html' },
     { id: 's-frenos-tipos',         path: './secciones/frenos/1-tipos-de-frenos.html' },
     { id: 's-frenos-mantenimiento', path: './secciones/frenos/2-mantenimiento-frenos.html' },
   ]);
@@ -26,7 +27,7 @@ d.addEventListener('DOMContentLoaded', () => {
     scrollBtn.classList.toggle('hidden', window.scrollY < 350);
   });
   scrollBtn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 50, behavior: 'smooth' });
   });
 
 });

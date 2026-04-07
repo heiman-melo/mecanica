@@ -33,6 +33,7 @@
         <span class="menu-grupo-titulo">🔩 Motor</span>
         <a href="#s-motor-partes">Partes del Motor</a>
         <a href="#s-motor-diagnostico">Diagnóstico del Motor</a>
+        <a href="#s-motor-sensores">Sensores del Motor</a>
       </div>
 
       <div class="menu-grupo">
@@ -47,6 +48,7 @@
   <main>
     <section id="s-motor-partes"         class="section" data-seccion="Partes del Motor"></section>
     <section id="s-motor-diagnostico"    class="section" data-seccion="Diagnóstico del Motor"></section>
+    <section id="s-motor-sensores"       class="section" data-seccion="Sensores del Motor"></section>
     <section id="s-frenos-tipos"         class="section" data-seccion="Tipos de Frenos"></section>
     <section id="s-frenos-mantenimiento" class="section" data-seccion="Mantenimiento de Frenos"></section>
   </main>
@@ -55,6 +57,11 @@
   <button class="dark-theme-btn" aria-label="Cambiar tema">🌚</button>
 
   <script src="js/main.js" type="module"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
 
 </body>
 </html>
